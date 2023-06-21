@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  vivaketo.bio:
+    image: franco/vivaketo.bio
+    container_name: vivaketo.bio
+    ports:
+      - 83:80
+    restart: unless-stopped
